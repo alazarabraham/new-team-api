@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:300,400,700");
+body {
+    font-family: verdana;
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+    color: white;
+    text-align: center;
+}
+.section {
+    grid-area: content;
+}
+.hero{
+    background: rgb(0, 50, 50);
+}
+.hero .title{
+    font-family: verdana;
+    color: #ff99cc;
+}
+body .section #submitform {
+    position: relative;
+}
