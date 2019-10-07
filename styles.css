@@ -1,19 +1,29 @@
 @import url("https://fonts.googleapis.com/css?family=Nunito:300,400,700");
 body {
-    font-family: verdana;
-    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+    font-family: Arial;
+    background: linear-gradient(to bottom, #ff6699 0%, #ff3300 100%);
     color: white;
     text-align: center;
+    margin: 0;
+    height: 100%;
+}
+#foodPicture{
+
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .section {
     grid-area: content;
 }
 .hero{
-    background: rgb(0, 50, 50);
+    background: black;
 }
+
 .hero .title{
-    font-family: verdana;
-    color: #ff99cc;
+    font-family:  cursive;
+
+    color: #FE6400;
 }
 body .section #submitform {
     position: relative;
